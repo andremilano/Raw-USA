@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>USA-Data</title>
+</head>
+
+<body>
+    <h1 class="text-center text-4xl my-10">USA Data</h1>
+    <div>
+        <div class="relative overflow-x-auto mx-4" id="data-container">
+            <table class="w-full text-sm text-left rtl:text-right text-gray-500 border-black border p-5"
+                id="dataTableBody">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                    <tr class="">
+                        <th scope="col" class="px-6 py-3">
+                            ID Nation
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Nation
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            ID Year
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Year
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Populaton
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Slug
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
